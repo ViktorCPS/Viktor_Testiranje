@@ -1,0 +1,17 @@
+.opis{
+    font-size: 1.2rem;
+}
+h1{
+    margin-top: 2rem;
+}
+.opisi{
+    font-size: 1.2rem;
+}
+a .slike{
+    height: 200px;
+    width: 200px;
+}
+a .slike:hover{
+    box-shadow: 0px 0px 10px #999;
+    transition: 0.3s;
+}
