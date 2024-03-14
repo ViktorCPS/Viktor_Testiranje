@@ -1,0 +1,130 @@
+@media only screen and (min-width: 1015px){
+    .kontakt{
+        width: 50%;
+        font-size: 3em;
+        color: rgb(255, 115, 0);
+    }
+    form{
+        width: 50%;
+        margin-left: 20%;
+        background-color: rgb(255, 255, 255);
+        color:black;
+        width: 11em;
+        padding: 2%;
+        font-size: 1.5em;
+        float: left;
+    }
+    .polja{
+        display: block;
+    }
+    #button{
+        width: 100%;
+        padding: 3%;
+        margin-top: 3%;
+        font-size: 1em;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: green;
+        color: white;
+    }
+    .kontakt1{
+        float: left;
+        width: 50%;
+        color:  rgb(255, 115, 0);
+        margin-left: 5%;
+        font-size: 2em;
+    }
+    .greska{
+        color: red;
+        padding: 0;
+        margin: 0 auto;
+    }
+    #poslato{
+        color: green;
+        padding: 0;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 771px){
+    .kontakt{
+        font-size: 3em;
+        color: rgb(255, 115, 0);
+    }
+    form{
+        margin-left: 20%;
+        background-color: rgb(255, 255, 255);
+        color:black;
+        width: 11em;
+        padding: 2%;
+        font-size: 1.5em;
+    }
+    .polja{
+        display: block;
+    }
+    #button{
+        width: 100%;
+        padding: 3%;
+        margin-top: 3%;
+        font-size: 1em;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: green;
+        color: white;
+    }
+    .kontakt1{
+        color:  rgb(255, 115, 0);
+        margin-left: 5%;
+        font-size: 2em;
+    }
+    .greska{
+        color: red;
+        padding: 0;
+        margin: 0 auto;
+    }
+    #poslato{
+        color: green;
+        padding: 0;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 770px){
+    .kontakt{
+        font-size: 3em;
+        color: rgb(255, 115, 0);
+    }
+    form{
+        margin-left: 15%;
+        background-color: rgb(255, 255, 255);
+        color:black;
+        width: 11em;
+        padding: 2%;
+        font-size: 1.5em;
+    }
+    .polja{
+        display: block;
+    }
+    #button{
+        width: 100%;
+        padding: 3%;
+        margin-top: 3%;
+        font-size: 1em;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: green;
+        color: white;
+    }
+    .kontakt1{
+        color:  rgb(255, 115, 0);
+        margin-left: 5%;
+        font-size: 1.5em;
+    }
+    .greska{
+        color: red;
+        padding: 0;
+        margin: 0 auto;
+    }
+    #poslato{
+        color: green;
+        padding: 0;
+        margin: 0 auto;
+    }
+}

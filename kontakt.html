@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="stil/index.css">
+    <link rel="stylesheet" href="stil/kontakt.css">
+    <title>Kontakt</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Početna strana</a></li>
+                <li><a href="oMeni.html">O meni</a></li>
+                <li><a href="galerija.html">Galerija</a></li>
+                <li><a href="mreze.html">Društvene mreže</a></li>
+                <li><a href="kontakt.html" class="active">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="kontakt_section">
+        <p align="center" class="kontakt"><strong>Kontakt:</strong></p>
+        <form action="" method="POST" name="mojaForma">
+            <label for="name">Ime: </label><input type="text" id="name" class="polja" placeholder="Pera">
+
+            <p id="greska1" class="greska"></p>
+
+            <label for="surname">Prezime: </label><input type="text" id="surname" class="polja" placeholder="Perić">
+
+            <p id="greska2" class="greska"></p>
+
+            <label for="mejl">E-mail: </label><input type="email" id="mejl" class="polja" placeholder="example@gmail.com">
+
+            <p id="greska3" class="greska"></p>
+
+            <label for="pass">Šifra: </label><input type="password" id="pass" class="polja" placeholder="Unesite šifru">
+
+            <p id="greska4" class="greska"></p>
+
+            <label for="pass1">Potvrdite šifru: </label><input type="password" class="polja" id="pass1" placeholder="Potvrdite unetu šifru">
+
+            <p id="greska5" class="greska"></p>
+
+            <button type="submit" id="button" onclick="provera()">Pošaljite podatke</button>
+
+            <p id="poslato"></p>
+        </form>
+        <p class="kontakt1">Ime: Viktor Tanasković<br>
+        E-mail: <a href="mailto:viktornrt5719@gs.viser.edu.rs">viktornrt5719@gs.viser.edu.rs</a><br>
+        Broj telefona: +381 60 132 5884</p>
+    </section>
+    <script src="js/kontakt.js"></script>
+</body>
+</html>
