@@ -1,0 +1,62 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f5f5f5;
+}
+.navbar .nav-item .nav-link{
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+.navbar .navbar-brand{
+    margin-right: 40px;
+}
+.prvi-section{
+    background-image: url('../img/pocetnaslika.jpg');
+    width: 100%;
+    height: 480px;
+    background-size: cover;
+    background-position: center;
+}
+.prvi-section h1{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 3rem;
+}
+.prvi-section p{
+    color: white;
+    padding-top: 3rem;
+    font-size: 20px;
+}
+.drugi-section{
+    margin-top: 1.5rem;
+}
+.drugi-section .kartica-1{
+    margin-left: 15%;
+}
+footer{
+    padding: 2rem;
+    margin-top: 2rem;
+    background-color: #eeeeee;
+}
+footer ul li a{
+    text-transform: uppercase;
+    color: #666666;
+    letter-spacing: 0.2rem;
+}
+footer ul li a:hover{
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+footer p{
+    text-transform: uppercase;
+    color: #666666;
+    letter-spacing: 0.2rem;
+}
+footer p a{
+    color: #666666;
+}
+footer p a:hover{
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
